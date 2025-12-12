@@ -1,0 +1,8 @@
+php artisan serve
+php artisan optimize
+php artisan make:model Product -m
+php artisan make:controller ProductController
+php artisan key:generate
+php artisan migrate
+php artisan migrate:refresh
+php artisan db:seed
